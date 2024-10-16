@@ -217,9 +217,12 @@ input{
     .box:hover{
         scale: 1.1;
     }
+
+
+
     .item{
     width: 280px;
-    height: 450px;
+    height: 350px;
     left: 240px;
     background-color: #506477;
     /* background-color: #ffd900; */
@@ -232,12 +235,12 @@ input{
         display: grid;
         grid-template-columns: repeat(4,3fr);
         padding: 100px;
-        gap: 30px;
+        gap: 60px;
         justify-content: center
     }
 
     .btn{
-        margin-top: 22px;
+        margin-top: -15px;
         height: 50px;
         border: none;
         width: 280px;
@@ -257,7 +260,6 @@ input{
 
     .info{
         width: 280px;
-       
     }
 
     .info h1{
@@ -267,6 +269,7 @@ input{
         margin: 6px;
     }
     .info h2{
+        line-height: 10px;
         font-size: 20px;
         color: rgb(0, 0, 0);
         margin: 6px;
@@ -313,7 +316,7 @@ input{
     }
     .game{
         height: 200px;
-        width: 600px;
+        width: 610px;
         background-color: #8400ff;
     }
     .game p{
@@ -322,7 +325,7 @@ input{
         font-weight: bold;
     }
     .games_container{
-        margin-top: -80px;
+        margin-top: -50px;
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
