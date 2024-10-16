@@ -1,0 +1,351 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: auto;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation-superior{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+}
+.icones{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.icones .fa-solid{
+    font-size: 25px;
+    &:hover{
+        color:blue;
+        transition: 0.2s;
+    }
+}
+
+
+input{
+    width: 700px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: none; /* Remove a sombra */
+    outline: none; 
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    
+}
+
+    .icones fa-solid{
+    padding: 10px;
+    }
+
+    i{
+        padding: 10px;
+    }
+    .logo-container {
+        text-align: center; /* Centraliza a logo na div */
+    }
+
+    .logo {
+        width: 150px; /* Define a largura da logo */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    a{
+        text-decoration: none;
+
+    }
+    .navigation-icons{
+    margin-top: -40px;
+    height: auto;
+    font-size: 20px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-around;
+    }
+    a{
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        &:hover{
+            color: blue;
+        }
+    }
+    .nav1{
+        background-color: rgb(90, 90, 90);
+    }
+    .nav2{
+        background-color: rgb(114, 114, 114);
+    }
+    .banner2{
+        background-image: url("https://img.freepik.com/fotos-gratis/pico-da-montanha-nevada-sob-a-majestade-generativa-da-galaxia-estrelada-ai_188544-9650.jpg");
+        height: 450px;
+    }
+    .dep{
+        background-color: rgb(0, 0, 0);
+        width: 210px;
+        border-radius: 6px;
+        &:hover{
+            background-color: rgb(255, 174, 0);
+        }
+    }
+
+    .dropdown-content {
+        display: none;
+        margin-top: px;
+        font-size: 15px;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #ffd900}
+      
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .container2 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1220px;
+        display: flex;
+        padding: 3px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .box1{
+    background-image: url('https://th.bing.com/th/id/OIP.YqmM48l_JiOlSrnpVeRl4gHaFp?rs=1&pid=ImgDetMain');
+    margin-top: 40px;
+    width: 345px;
+    padding-inline: 2px;
+    height: 150px;
+    left: 240px;
+    background-color: aqua;
+    border-radius: 5px;
+    gap: 10px;
+    }
+    
+    .box1 p{
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        margin-top: 25%;
+        text-align: center;
+    }
+
+    .box2{
+    background-image: url('https://th.bing.com/th/id/OIP.DVIOJaS5B7JAIhNhYcVmQwHaE8?rs=1&pid=ImgDetMain');
+    margin-top: 40px;
+    width: 345px;
+    padding-inline: 2px;
+    height: 150px;
+    left: 240px;
+    background-color: aqua;
+    border-radius: 5px;
+    gap: 10px;
+    }
+    
+    .box2 p{
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        margin-top: 25%;
+        text-align: center;
+    }
+    .box3{
+    background-image: url('https://th.bing.com/th/id/OIP.qbXB4_GAAwzF7n0r2hfvpgHaE6?rs=1&pid=ImgDetMain');
+    margin-top: 40px;
+    width: 345px;
+    padding-inline: 2px;
+    height: 150px;
+    left: 240px;
+    background-color: aqua;
+    border-radius: 5px;
+    gap: 10px;
+    }
+    
+    .box3 p{
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        margin-top: 25%;
+        text-align: center;
+    }
+    .box4{
+    background-image: url('https://th.bing.com/th/id/R.d8b7769aaf51f4d8cd87a74483201ed7?rik=w7bQaaGGjKpnLA&pid=ImgRaw&r=0');
+    margin-top: 40px;
+    width: 345px;
+    padding-inline: 2px;
+    height: 150px;
+    left: 240px;
+    background-color: aqua;
+    border-radius: 5px;
+    gap: 10px;
+    }
+    
+    .box4 p{
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        margin-top: 25%;
+        text-align: center;
+    }
+
+
+    .box:hover{
+        scale: 1.1;
+    }
+    .item{
+    width: 280px;
+    height: 450px;
+    left: 240px;
+    background-color: #506477;
+    /* background-color: #ffd900; */
+    }
+
+    .container3{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1220px;
+        display: grid;
+        grid-template-columns: repeat(4,3fr);
+        padding: 100px;
+        gap: 30px;
+        justify-content: center
+    }
+
+    .btn{
+        margin-top: 22px;
+        height: 50px;
+        border: none;
+        width: 280px;
+        &:hover{
+            transition: 0.4s;
+            background-color: #0084ff;
+        }
+    }
+
+    .imagem2{
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+        margin-left: 50px;
+        background-repeat: no-repeat;
+    }
+
+    .info{
+        width: 280px;
+       
+    }
+
+    .info h1{
+        text-align: justify;
+        font-weight: normal;
+        font-size: 16px;
+        margin: 6px;
+    }
+    .info h2{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        margin: 6px;
+    }
+
+    .info-bar{
+        background-color: #0084ff;
+        width: 280px;
+        display: flex;
+        padding: 0;
+    }
+    .info-bar span{
+        font-weight: bold;
+        margin: 5px;
+        color:#ffd900;
+    }
+
+    .info-bar p{
+        font-weight: bold;
+        margin: 5px;
+    }
+    .info p{
+        margin: 6px;
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .promocao{
+        margin-top: 20px;
+        background-color: #506477;
+    }
+    
+    .containerpromo{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1220px;
+        
+    }
+    .info-pro{
+        height: 900px;
+    }
+     .info-pro h1{
+    text-align: center;
+    }
+    .game{
+        height: 200px;
+        width: 600px;
+        background-color: #8400ff;
+    }
+    .game p{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .games_container{
+        margin-top: -80px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        display: flex;
+        gap: 15px;
+    }
+    .img4{
+        height: 170px;
+        width: 300px;
+    }
+
+    .img_nintendo{
+        align-items: center;
+        height: 50px;
+        width: 300px;
+    }
+    .img_xbox{
+        align-items: center;
+        height: 200px;
+        width: 600px;
+    }
+    .img_play{
+        align-items: center;
+        height: 200px;
+        width: 600px;
+    }
