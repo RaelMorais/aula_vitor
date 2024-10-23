@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* HEADER ESTILOS CSS */
 .nav{
     height: auto;
     padding: 4px;
@@ -35,14 +36,13 @@
     }
 }
 
-
 input{
     width: 700px;
     height: 35px;
     font-size: 20px;
     border-radius: 5px;
     border: none;
-    box-shadow: none; /* Remove a sombra */
+    box-shadow: none; 
     outline: none; 
     background-color: rgb(255, 255, 255);
     padding-left: 10px;
@@ -76,33 +76,6 @@ input{
     display: flex;
     justify-content: space-around;
     }
-    a{
-        color: rgb(255, 255, 255);
-        cursor: pointer;
-        &:hover{
-            transition: 0.2s;
-            color: rgb(0, 0, 0);
-        }
-    }
-    .nav1{
-        background-color: rgb(63, 63, 63);
-    }
-    .nav2{
-        background-color: rgb(53, 52, 52);
-    }
-    .banner2{
-        background-image: url("https://img.freepik.com/fotos-gratis/pico-da-montanha-nevada-sob-a-majestade-generativa-da-galaxia-estrelada-ai_188544-9650.jpg");
-        height: 450px;
-    }
-    .dep{
-        background-color: rgb(0, 0, 0);
-        width: 210px;
-        border-radius: 6px;
-        &:hover{
-            background-color: rgb(255, 174, 0);
-        }
-    }
-
     .dropdown-content {
         display: none;
         margin-top: px;
@@ -126,6 +99,37 @@ input{
       .dropdown:hover .dropdown-content {
         display: block;
       }
+    a{
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        &:hover{
+            transition: 0.2s;
+            color: rgb(0, 0, 0);
+        }
+    }
+    .nav1{
+        background-color: rgb(63, 63, 63);
+    }
+    .nav2{
+        background-color: rgb(53, 52, 52);
+    }
+    .banner2{
+        background-image: url("https://img.freepik.com/fotos-gratis/pico-da-montanha-nevada-sob-a-majestade-generativa-da-galaxia-estrelada-ai_188544-9650.jpg");
+        height: 450px;
+    }
+    /* FIM ESTILO HEADER */
+    /* MAIN - PRINCIPAL PRODUTOS INICIO */
+    .dep{
+        background-color: rgb(0, 0, 0);
+        width: 210px;
+        border-radius: 6px;
+        &:hover{
+            background-color: rgb(255, 174, 0);
+        }
+    }
+
+    
+
       .container2 {
         margin-left: auto;
         margin-right: auto;
@@ -224,7 +228,6 @@ input{
     }
 
 
-
     .item{
     width: 280px;
     height: 350px;
@@ -234,6 +237,7 @@ input{
     }
 
     .container3{
+        margin-top: -110px;
         margin-left: auto;
         margin-right: auto;
         width: 1080px;
@@ -301,7 +305,7 @@ input{
         padding: 0;
         font-size: 10px;
     }
-
+/* MAIN - PRINCIPAL PRODUTOS FIM */
     .promocao{
         margin-top: 80px;
         background-image: url('../background.png');
@@ -378,14 +382,32 @@ input{
     .mais_vendidos{
         margin-left: auto;
         margin-right: auto;
-        width: 1220px;
+        width: 1080px;
         display: grid;
         grid-template-columns: repeat(4,3fr);
         padding: 100px;
-        gap: 60px;
-        justify-content: center
+        gap: 70px;
+        justify-content: center;
     }
     .mais_vendidos_info{
+        margin-left: -110px;
         margin-top: 30px;
         text-align: left;
     }
+    .container_text{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1080px;
+    }
+    .container_text_one{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1080px;
+    }
+    .mais_vendidos_info_one{
+        margin-left: -110px;
+        margin-top: 100px;
+        text-align: left;
+    }
+
+    
